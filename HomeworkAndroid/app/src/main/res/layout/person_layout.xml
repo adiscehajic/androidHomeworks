@@ -39,7 +39,8 @@
         android:id="@+id/removePerson"
         android:layout_below="@+id/personSurnameText"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:background="#8388a4"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -48,5 +49,6 @@
         android:id="@+id/editPerson"
         android:layout_alignBottom="@+id/removePerson"
         android:layout_toLeftOf="@+id/removePerson"
-        android:layout_toStartOf="@+id/removePerson" />
+        android:layout_toStartOf="@+id/removePerson"
+        android:background="#ed5e68" />
 </RelativeLayout>
